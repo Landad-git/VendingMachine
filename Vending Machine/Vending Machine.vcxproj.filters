@@ -27,6 +27,9 @@
     <ClInclude Include="VendingSlot.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="MoneyHandler.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="stdafx.cpp">
@@ -36,6 +39,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VendingSlot.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MoneyHandler.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

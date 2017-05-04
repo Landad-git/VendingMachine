@@ -1,6 +1,10 @@
-#pragma once
+﻿#pragma once
 #ifndef VENDINGSLOT_H
 #define VENDINGSLOT_H
+
+#include <string>
+
+using namespace std;
 
 class VendingSlot
 {
@@ -8,7 +12,7 @@ private:
 	int slotNumber;
 	double slotPrice;
 	int slotQuantity;
-	int slotItem;
+	string slotItem;
 
 public:
 	VendingSlot(void);
@@ -16,8 +20,8 @@ public:
 	void setSlotNumber(int input);
 	int getSlotNumber() const;
 
-	void setSlotItem(int input);
-	int getSlotItem() const;
+	void setSlotItem(string input);
+	string getSlotItem() const;
 
 	void setSlotPrice(double input);
 	double getSlotPrice() const;
@@ -25,6 +29,43 @@ public:
 	void setSlotQuantity(int input);
 	int getSlotQuantity() const;
 
+
 };
 
 #endif
+
+/*
+
+
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+█     █     █     █     █     █     █     █     █
+■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■
+
+
+
+
+
+
+
+
+
+
+*/
