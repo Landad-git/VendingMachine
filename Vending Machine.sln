@@ -3,16 +3,30 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vending Machine", "Vending Machine\Vending Machine.vcxproj", "{5108BF65-910C-46B5-A5AC-4C8898B61547}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VendingMachineFix", "..\..\..\..\Desktop\Vending-Machine-Fix-master\VendingMachineFix\VendingMachineFix.vcxproj", "{44198E22-E8C4-41FB-B31B-FFD82A955AA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
 		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{5108BF65-910C-46B5-A5AC-4C8898B61547}.Debug|Win32.ActiveCfg = Debug|Win32
 		{5108BF65-910C-46B5-A5AC-4C8898B61547}.Debug|Win32.Build.0 = Debug|Win32
+		{5108BF65-910C-46B5-A5AC-4C8898B61547}.Debug|x64.ActiveCfg = Debug|Win32
 		{5108BF65-910C-46B5-A5AC-4C8898B61547}.Release|Win32.ActiveCfg = Release|Win32
 		{5108BF65-910C-46B5-A5AC-4C8898B61547}.Release|Win32.Build.0 = Release|Win32
+		{5108BF65-910C-46B5-A5AC-4C8898B61547}.Release|x64.ActiveCfg = Release|Win32
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Debug|Win32.Build.0 = Debug|Win32
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Debug|x64.ActiveCfg = Debug|x64
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Debug|x64.Build.0 = Debug|x64
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Release|Win32.ActiveCfg = Release|Win32
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Release|Win32.Build.0 = Release|Win32
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Release|x64.ActiveCfg = Release|x64
+		{44198E22-E8C4-41FB-B31B-FFD82A955AA1}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
